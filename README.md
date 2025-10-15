@@ -1,2 +1,5 @@
-# DSA-in-JAVA
-Practice Java programs and Data Structures &amp; Algorithms for skill building and placements.
+# DSA in Java 💻
+
+Welcome to my **DSA in Java** repository!  
+This repository contains all my **Java practice programs** and, eventually, **Data Structures & Algorithms problems** as I learn and practice them. 
+I’m learning step by step — **from basics to advanced** — and updating this regularly 🚀
