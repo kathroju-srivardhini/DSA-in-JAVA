@@ -32,6 +32,7 @@ public class Swap {
             System.out.printf("\nAfter Swapping Using XOR logic : a = %d, b = %d",a3,b3);
         }
         //Doesn't work if both are same numbers
+        sc.close();
     }
     
 }

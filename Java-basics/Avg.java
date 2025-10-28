@@ -13,6 +13,7 @@ public class Avg {
         }
         double avg=sum/n;
         System.out.printf("The average of given numbers is %.2f",avg);
+        sc.close();
     }
     
 }
