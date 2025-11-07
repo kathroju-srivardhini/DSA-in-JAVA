@@ -18,3 +18,13 @@ public class HollowSquare {
         sc.close();
     }
 }
+/*
+ OUTPUT:
+Enter the number of rows : 5
+* * * * * 
+*       *
+*       *
+*       *
+* * * * *
+
+ */

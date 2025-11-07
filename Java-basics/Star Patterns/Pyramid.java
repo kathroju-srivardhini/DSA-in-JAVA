@@ -6,9 +6,9 @@ public class Pyramid {
         int n=sc.nextInt();
         for(int i=0;i<n;i++){
             for(int j=i;j<n;j++){
-                System.out.print("  ");
+                System.out.print(" ");
             }
-            for(int k=1;k<=2*i-1;k++){
+            for(int k=0;k<=i;k++){
                 System.out.print("* ");
             }
             System.out.println();
@@ -16,3 +16,13 @@ public class Pyramid {
         sc.close();
     }
 }
+/*
+  OUTPUT:
+  Enter the number of rows : 5
+     * 
+    * *
+   * * *
+  * * * *
+ * * * * *
+ 
+ */

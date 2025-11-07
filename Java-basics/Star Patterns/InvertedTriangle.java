@@ -13,3 +13,13 @@ public class InvertedTriangle {
         sc.close();
     }
 }
+/*Output:
+
+Enter the number of rows : 5
+* * * * * 
+* * * *
+* * *
+* *
+*
+
+*/

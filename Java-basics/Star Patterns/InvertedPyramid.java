@@ -6,9 +6,9 @@ public class InvertedPyramid {
         int n=sc.nextInt();
         for(int i=n;i>0;i--){
             for(int j=n;j>i;j--){
-                System.out.print("  ");
+                System.out.print(" ");
             }
-            for(int k=0;k<2*i-1;k++){
+            for(int k=0;k<i;k++){
                 System.out.print("* ");
             }
             System.out.println();
@@ -16,3 +16,12 @@ public class InvertedPyramid {
         sc.close();
     }
 }
+/*
+ Enter the number of rows : 5
+* * * * * 
+ * * * *
+  * * *
+   * *
+    * 
+    
+ */

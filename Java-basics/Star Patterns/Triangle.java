@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RightAngledTriangle {
+public class Triangle {
     public static void main(String[] args){
         System.out.print("Enter the number of rows : ");
         Scanner sc=new Scanner(System.in);
@@ -14,3 +14,13 @@ public class RightAngledTriangle {
     }
     
 }
+/*
+ Enter the number of rows : 5
+* 
+* *
+* * *
+* * * *
+* * * * *
+
+
+ */

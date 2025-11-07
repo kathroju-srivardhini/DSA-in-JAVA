@@ -18,3 +18,13 @@ public class HollowTriangle {
         sc.close();
     }
 }
+/*
+Enter the number of rows : 5
+* 
+* *
+*   *
+*     *
+* * * * *
+
+
+ */

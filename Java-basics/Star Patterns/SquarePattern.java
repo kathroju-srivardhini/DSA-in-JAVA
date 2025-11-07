@@ -14,3 +14,14 @@ public class SquarePattern{
         sc.close();
     }
 }
+/*
+ Enter the number of rows : 5
+
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+
+ */
