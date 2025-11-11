@@ -22,7 +22,7 @@ class Account{
         System.out.println("\nCurrent Account Balance: "+balance);
     }
 }
-public class Program2{
+public class BankAccount{
     public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the Account balance:");
