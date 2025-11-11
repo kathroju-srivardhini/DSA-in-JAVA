@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.math.BigInteger;//to use BigInteger which has big size than long
+import java.math.BigInteger;//to use BigInteger which has bigger size than long and int
 class factorial{
     public BigInteger iterative(int n){
         BigInteger fact = BigInteger.ONE;//assigns fact=1
