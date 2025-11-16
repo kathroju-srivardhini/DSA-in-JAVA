@@ -40,5 +40,6 @@ public class Office{
        // for(int i=0;i<n;i++){
        //     emp[i].display();
        // }
+       sc.close();
     }
 }
