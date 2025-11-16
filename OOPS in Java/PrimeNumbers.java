@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class Prime{
-    public boolean p(int n){
+    public boolean isPrime(int n){
 //We know that factors are in pairs, in each pair the smaller number is always less than root n. So we just need to check divisibility only upto root n.
         for(int i=2;i*i<=n;i++){
             if(n%i==0){
@@ -22,7 +22,7 @@ public class PrimeNumbers{
         else{ 
         System.out.printf("Prime numbers upto %d are : ",num);
         for(int i=2;i<=num;i++){
-            boolean k=obj.p(i);
+            boolean k=obj.isPrime(i);
             if(k){ 
                 System.out.print(i +" ");
             }
