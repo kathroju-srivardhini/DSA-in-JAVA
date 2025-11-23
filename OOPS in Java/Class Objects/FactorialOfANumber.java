@@ -1,24 +1,28 @@
+/*
+Program to calculate the factorial of a number using both iterative and recursive methods. Using class, object and methods
+Use BigInteger for handling very large numbers.
+*/
 import java.util.Scanner;
-import java.math.BigInteger;//to use BigInteger which has bigger size than long and int
+import java.math.BigInteger; //to use BigInteger which has bigger size than long and int
 class factorial{
     public BigInteger iterative(int n){
-        BigInteger fact = BigInteger.ONE;//assigns fact=1
+        BigInteger fact = BigInteger.ONE; //assigns fact=1
         if(n==0||n==1){
-            return BigInteger.ONE;//returns 1
+            return BigInteger.ONE; //returns 1
         }
         for(int i=n; i>1;i--){
-            fact=fact.multiply(BigInteger.valueOf(i));//this is same as fact*=i, which is used in case of int
+            fact=fact.multiply(BigInteger.valueOf(i)); //this is same as fact*=i, which is used in case of int
         }
         return fact;
     }
     public BigInteger recursive(int n){
         if(n==0){
-            return BigInteger.ONE;//returns 1
+            return BigInteger.ONE; //returns 1
         }
         if(n==1){
-            return BigInteger.valueOf(n);//returns n
+            return BigInteger.valueOf(n); //returns n
         }
-        return BigInteger.valueOf(n).multiply(recursive(n-1));//this is same as n*recursive(n-1)
+        return BigInteger.valueOf(n).multiply(recursive(n-1)); //this is same as n*recursive(n-1)
     }
 }
 public class FactorialOfANumber{
@@ -31,3 +35,9 @@ public class FactorialOfANumber{
         sc.close();
     }
 }
+/*
+Sample Output:
+Enter a number : 5
+Using iterative method : 5! = 120
+Using recursive method : 5! = 120
+*/

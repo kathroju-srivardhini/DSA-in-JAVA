@@ -1,3 +1,4 @@
+//Program to find sum of the digits in a given number
 import java.util.Scanner;
 public class SumOfDigits{
     public static void main(String[] args){
@@ -14,3 +15,6 @@ public class SumOfDigits{
         sc.close();
     }
 }
+//output:
+//Enter a number: 148
+//Sum of digits in the given number is 13

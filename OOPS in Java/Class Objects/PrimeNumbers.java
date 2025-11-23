@@ -1,3 +1,4 @@
+//Program to print list of all the prime numbers in a given limitusing class and object
 import java.util.Scanner;
 class Prime{
     public boolean isPrime(int n){

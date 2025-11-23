@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Demonstrate passing objects as arguments. Create a Mobile class with brand and price, 
+and a Shop class with a method to print mobile details. Pass a Mobile object to Shop 
+to display its details.
+*/
 class Mobile{
     String brand;
     double price;
@@ -26,3 +32,9 @@ public class MobileShop{
         mob.sendToShop(sh);
     }
 }
+/*
+Sample Output:
+Mobile Details
+Brand : Samsung
+Price : 12500.0
+*/

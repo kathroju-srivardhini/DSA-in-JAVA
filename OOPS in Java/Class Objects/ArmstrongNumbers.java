@@ -1,3 +1,7 @@
+/*
+Create a menu-driven program to check if a number is an Armstrong number or to print all 
+Armstrong numbers up to a given limit using class and object
+ */
 import java.util.Scanner;
 
 // LOGIC: An Armstrong number is a number that is equal to the sum of its digits each raised to the power of total digits.
@@ -62,3 +66,12 @@ public class ArmstrongNumbers{
         sc.close();
     }
 }
+/*
+Sample Output (Option 1):
+Enter a number : 153
+153 is an Armstrong number.
+
+Sample Output (Option 2):
+Enter the limit (number) upto which you want sequence of Armstrong numbers : 500
+The sequence of Armstrong numbers upto 500 are : 0 1 2 3 4 5 6 7 8 9 153 370 371 407
+ */

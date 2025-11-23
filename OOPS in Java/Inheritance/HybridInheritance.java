@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Demonstrate multilevel and hierarchical inheritance. Create a Device class with 
+method powerOn(). Extend it to Computer and Phone classes. Further, extend Phone 
+to SmartPhone. Demonstrate use of super to access parent class methods.
+*/
 class Device{
     String brand;
     void powerOn(){
@@ -33,3 +39,9 @@ class HybridInheritance{
         mobile.runApps();
     }
 }
+/*
+Sample Output:
+Device is powering on..
+Phone is making a call..
+SmartPhone is running apps.
+*/

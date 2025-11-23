@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Demonstrate the use of super() in constructors. Create a Gadget class with a 
+constructor, and extend it with Smartphone class that calls super() in its constructor. 
+Create a Smartphone object to show constructor chaining.
+*/
 class Gadget{
     Gadget(){ //Constructors can print, but they shouldnot print unless it is for understanding or debugging.
         System.out.println("Gadget Created");
@@ -15,3 +21,8 @@ class SuperConstructor{
         
     }
 }
+/*
+Sample Output:
+Gadget Created
+Smartphone Created
+*/

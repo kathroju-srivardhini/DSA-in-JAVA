@@ -1,3 +1,6 @@
+//Program to print fibonacci Series of a given number, in both methods iterative and recursive
+//using class, object, and methods.
+//Fibonacci series logic : the current number is the sum of previous two numbers
 import java.util.Scanner;
 class fibonacci{
     int i=0,a=0,b=1,c;

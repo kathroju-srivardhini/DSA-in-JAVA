@@ -1,4 +1,12 @@
-//Combination of Abstract class and Interface
+/*
+Problem Statement:
+Demonstrate a combination of abstract class and interfaces. Create an abstract
+class Payment with processPayment() and paymentInfo(). Create interfaces Refundable 
+(refund()) and Receipt (printReceipt()). Implement these in UPIPayment and CardPayment 
+classes and demonstrate payment, refund, and receipt functionality.
+*/
+
+// This is a Combination of Abstract class and Interface
 abstract class Payment{
     double amount;
     abstract void processPayment();
@@ -42,3 +50,13 @@ class PaymentSystem{
         card.printReceipt();
     }
 }
+/*
+Sample Output:
+Processing the payment of Rs.1600.00 using UPI Payment
+Payment of Rs.1600.00 has been processed
+Refunding the amount processed..
+
+Processing the payment of Rs.4800.00 using card
+Payment of Rs.4800.00 has been processed
+Printing the receipt..
+*/

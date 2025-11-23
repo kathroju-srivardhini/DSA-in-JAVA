@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Demonstrate passing objects as arguments. Create a Car class with model and price, 
+and a Garage class with a method to print car details. Pass a Car object to Garage 
+to display its details.
+*/
 import java.util.Scanner;
 class Car{
     String model;
@@ -28,3 +34,9 @@ public class CarGarage{
         //c.sendToGarage(g);  Send the car to the garage so it can print details
     }
 }
+/*
+Sample Output:
+Car Details
+Model : Hyundai
+Price : 120000.0
+*/

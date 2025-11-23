@@ -1,3 +1,11 @@
+/*
+Type: Abstract Class + Inheritance
+Problem Statement:
+Create abstract class Professional with abstract method wearIdCard() and normal 
+method work(). Subclasses College and Office implement wearIdCard(). Demonstrate 
+working and ID card rules for students and employees.
+*/
+
 abstract class Professional{
     abstract void wearIdCard();
     void work(){
@@ -24,3 +32,11 @@ class ProfessionalPlaces{
         tech.wearIdCard();
     }
 }
+/*
+
+Sample Output:
+Working on a Project..
+Every Student must wear ID card
+Working on a Project..
+Every employee must wear Id Card
+ */

@@ -1,4 +1,4 @@
-//Program to read and print the details of employees in Office
+//Program to read and print the details of employees in Office using class,object and constructors
 import java.util.Scanner;
 class Employee{
     String name;

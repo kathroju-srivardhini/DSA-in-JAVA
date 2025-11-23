@@ -1,23 +1,29 @@
-//This is the calculator program using class, object and methods.
+//Program to create an arithmetic calculator using class, object and methods.
 import java.util.Scanner;
-class Calculate {//class
-    public void add(int x, int y){//method1
+class Calculate //class
+{
+    public void add(int x, int y) //method1
+    {
     System.out.printf("\n%d + %d = %d",x,y,x+y);
-  }
-    public void subtract(int x, int y){//method2
+    }
+    public void subtract(int x, int y)  //method2
+    {
        System.out.printf("\n%d - %d = %d",x,y,x-y);
-  }
-    public void multiply(int x, int y){//method3
+    }
+    public void multiply(int x, int y) //method3
+    {
       System.out.printf("\n%d * %d = %d",x,y,x*y);
-  }
-    public void divide(int x, int y){//method4
+    }
+    public void divide(int x, int y) //method4
+    {
         if(y==0){
             System.out.print("Error! DivisionByZero!");
         }
         else
           System.out.printf("\n%d / %d = %d",x,y,x/y);
     }
-    public void modulo(int x, int y){//method5
+    public void modulo(int x, int y) //method5
+    {
         if(y==0){
             System.out.print("Error! DivisionByZero!");
         }
@@ -28,7 +34,7 @@ class Calculate {//class
 //main program
 public class Calculator{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);//scanner should be defined only once, so it should be always outside the loops
+        Scanner sc = new Scanner(System.in); //scanner should be defined only once, so it should be always outside the loops
         while(true){
         System.out.print("Enter the two operands : ");
         int a = sc.nextInt();
@@ -40,7 +46,7 @@ public class Calculator{
             case 'x':
             case 'X': 
                System.out.print("Exiting the program! Thank you!");
-               sc.close();//close the scanner before exiting the program
+               sc.close(); //close the scanner before exiting the program
                System.exit(0);
                break;
             //Here case 'x' and case 'X' follows the same statements in case 'X' since there is no 'break;'
@@ -61,9 +67,21 @@ public class Calculator{
         char txt =sc.next().charAt(0);
         if(txt=='n'|| txt=='N'){
             System.out.print("Exiting the program! Thank you!");
-            break;//stops the loop 
+            break; //stops the loop 
         }
     }
-    sc.close();//once closed it cannot be used again, so we have to close outside the loop
+    sc.close(); //once closed it cannot be used again, so we have to close outside the loop
     }
 }
+/*
+Sample Output:
+Enter the two operands : 10 5
+Enter the operator (+,-,*,/,%) or 'x' to exit : +
+10 + 5 = 15
+Do you want to continue (y/n) : y
+Enter the two operands : 12 0
+Enter the operator (+,-,*,/,%) or 'x' to exit : /
+Error! DivisionByZero!
+Do you want to continue (y/n) : n
+Exiting the program! Thank you!
+*/

@@ -1,4 +1,10 @@
 //Compile-time polymorphism
+/*
+Problem Statement:
+Demonstrate compile-time polymorphism using method overloading. Create an Area class 
+with multiple area() methods to calculate area of a square, rectangle, and circle. 
+Call appropriate methods using objects.
+*/
 class Area{
     int side;
     int length;
@@ -16,6 +22,7 @@ class Area{
         double c=(Math.PI)*radius*radius;
         System.out.printf("Area of circle is %.2f\n",c);
     }
+    //Here the 3 method names are same, only parameters are different. This is known as Method Overloading
 }
 class MethodOverloadingEg{
     public static void main(String[] args){
@@ -26,3 +33,9 @@ class MethodOverloadingEg{
         a.area(4.2);
     }
 }
+/*
+Sample Output:
+Area of Square 25
+Area of rectangle is 48
+Area of circle is 55.42
+*/

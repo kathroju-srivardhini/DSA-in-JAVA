@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Demonstrate constructor overloading and the use of 'this'. Create a Student class 
+with default and parameterized constructors. Read details for multiple students, 
+store them in an array, display each student's info, and calculate class average.
+*/
 import java.util.Scanner;
 class Student{
     String name;
@@ -33,11 +39,11 @@ public class StudentMarks{
             int ROLLNO=sc.nextInt();
             System.out.print("Marks : ");
             float MARKS=sc.nextFloat();
-            students[i]=new Student(NAME,ROLLNO,MARKS);
+            students[i]=new Student(NAME,ROLLNO,MARKS); //calls parameterized constructor
 
         }
         else if(c=='n'||c=='N'){
-            students[i]=new Student();
+            students[i]=new Student(); //calls default constructor
         }
     }
     float sum=0;
@@ -49,3 +55,25 @@ public class StudentMarks{
     sc.close();
     }
 }
+/*
+Sample Output:
+Enter the total number of students : 2
+Do you want to enter the details for Student 1 (y/n) : y
+Enter the details of Student 1 
+Name : Sree
+Roll Number : 1
+Marks : 95
+Do you want to enter the details for Student 2 (y/n) : n
+
+Student details 
+Student Name : Sree
+Roll Number : 1
+Marks  : 95.00
+
+Student details 
+Student Name : Unknown
+Roll Number : 0
+Marks  : 0.00
+
+Average marks of class is 47.50
+*/

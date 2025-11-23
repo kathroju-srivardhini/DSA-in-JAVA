@@ -1,3 +1,10 @@
+/*
+Program to create an Arithmetic Calculator in Java that:
+Continuously takes two numbers from the user.
+Accepts an operator (+, -, *, /, %) to perform arithmetic operations.
+performs the corresponding operation using switch-case, with support for exit command. 
+Handles division by zero by showing an error.
+*/
 import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args){

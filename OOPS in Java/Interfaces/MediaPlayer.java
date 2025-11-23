@@ -1,3 +1,8 @@
+/*
+Problem Statement:
+Demonstrate interface implementation. Create a Playable interface with method play(). 
+Implement it in MusicPlayer and VideoPlayer classes. Call play() using objects of both classes.
+*/
 interface Playable{
     void play(); //this is public abstract method by default
 }
@@ -21,3 +26,8 @@ class MediaPlayer{
         video.play();
     }
 }
+/*
+Sample Output:
+Playing Music....
+Playing a video...
+*/

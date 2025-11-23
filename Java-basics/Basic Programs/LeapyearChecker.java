@@ -1,4 +1,5 @@
-//Every 4th year is leap, except century years (like 1900, 2100)... unless they’re multiples of 400
+//Program to Check if the given year is a Leap year or not
+//LOGIC : Every 4th year is leap, except century years (like 1900, 2100)... unless they’re multiples of 400
 import java.util.Scanner;
 public class LeapYearChecker{
     public static void main(String[] args){

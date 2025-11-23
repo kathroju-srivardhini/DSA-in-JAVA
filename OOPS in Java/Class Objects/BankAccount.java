@@ -1,3 +1,8 @@
+/*
+Create a program to simulate basic bank account operations. Define a class Account 
+with a constructor to initialize balance. Implement methods to deposit, withdraw, 
+and display the current balance using object.
+*/
 import java.util.Scanner;
 class Account{
     float balance;
@@ -34,3 +39,18 @@ public class BankAccount{
     a1.display();
     }
 }
+/*
+Sample Output:
+Enter the Account balance:
+1000
+Enter the amount to deposit : 500
+
+Deposited Successfully!!
+
+Current Account Balance: 1500.0
+Enter the amount to withdraw : 200
+
+Withdrawn successfully!!
+
+Current Account Balance: 1300.0
+*/

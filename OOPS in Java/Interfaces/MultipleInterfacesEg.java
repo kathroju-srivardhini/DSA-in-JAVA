@@ -1,3 +1,9 @@
+/*
+Problem Statement:
+Demonstrate multiple inheritance using interfaces. Create Printable and Scannable 
+interfaces with methods print() and scan(). Implement both in PrinterScanner class 
+and call the methods using its object.
+*/
 interface Printable{
     void print();
 }
@@ -22,3 +28,8 @@ class MultipleInterfacesEg{
         ps.scan();
      }
 }
+/*
+Sample Output:
+Printing the document..
+Scanning the document..
+*/

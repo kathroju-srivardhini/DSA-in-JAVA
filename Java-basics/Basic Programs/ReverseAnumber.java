@@ -1,3 +1,6 @@
+//Program to reverse a given number
+//LOGIC: Extract last digit from the given number, add it as suffix in a new variable, remove it from the original number.
+//  Repeat the same until the last digit
 import java.util.Scanner;
 public class ReverseAnumber {
     public static void main(String[] args){

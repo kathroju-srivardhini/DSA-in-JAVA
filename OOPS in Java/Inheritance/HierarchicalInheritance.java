@@ -1,3 +1,8 @@
+/*
+Create a Vehicle class with method start(). 
+Create subclasses Car and Bike with their own methods drive() and ride() respectively. 
+Use objects to call inherited and subclass-specific methods.
+*/
 class Vehicle{
     void start(){
         System.out.println("Fueling the Engine..");
@@ -25,3 +30,13 @@ class HierarchicalInheritance{
         Pulser.ride();
     }
 }
+/*
+Sample Output:
+Car Details
+Fueling the Engine..
+Driving the Car..
+
+Bike Details
+Fueling the Engine..
+Riding the bike..
+*/

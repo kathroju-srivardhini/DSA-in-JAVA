@@ -1,4 +1,12 @@
- abstract class Payment{
+/*
+Problem Statement:
+Create an abstract class Payment with an abstract method processPayment() and a normal 
+method paymentInfo(). Create subclasses UpiPayment and CardPayment that implement 
+processPayment() in their own way. In the main method, create objects of both subclasses, 
+assign payment details, and display payment information along with how the payment is processed.
+*/
+
+abstract class Payment{
     double amount;
     abstract void processPayment();
     void paymentInfo(){
@@ -32,3 +40,10 @@ class OnlinePaymentSystem{
         card.processPayment();
     }
 }
+/* 
+Sample Output:
+Processing payment of Rs.2500.0
+Payment done using UPI : <raghu1345>
+Processing payment of Rs.1200.0
+Payment done using Card : <67374>
+*/

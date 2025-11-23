@@ -1,3 +1,11 @@
+/* 
+Problem Statement:
+Create an abstract class Course with an abstract method startLesson() and a normal 
+method showCourse(). Create subclasses VideoCourse and TextCourse, each implementing 
+startLesson() in their own way. In the main method, create objects of both subclasses, 
+assign course details, and display how each lesson starts.
+*/
+
 abstract class Course{
      String courseName;
      abstract void startLesson();//abstract method. It doesn't have body.
@@ -39,3 +47,10 @@ class OnlineCourses{
 
     }
 }
+/* 
+Sample Output:
+Course : Spoken English
+Playing video lesson for <120> minutes
+Course : Software Engineering
+Opening the text lesson of <50> pages
+*/
