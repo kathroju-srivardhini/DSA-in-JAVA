@@ -81,6 +81,13 @@ Enter the 2nd array elements (sorted in ascending order) : 1 6 14 22 64 90
 Merged Array : 1 2 5 6 9 14 16 22 64 90 
 
 OUTPUT 2:
+Enter the size of 1st array : 4
+Enter the size of 2nd array : 4
+Enter the 1st array elements (sorted in ascending order) : 1 2 5 8
+Enter the 2nd array elements (sorted in ascending order) : 4 5 6 10
+Merged Array : 1 2 4 5 5 6 8 10 
+
+OUTPUT 3:
 Enter the size of 1st array : 0
 Enter the size of 2nd array : 0
 Both the arrays are empty
