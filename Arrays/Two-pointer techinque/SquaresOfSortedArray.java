@@ -23,8 +23,8 @@ public class SquaresOfSortedArray{
         }
         sc.close();
         int start=0, end=n-1,k=n-1;
-        int[] res=new int[n];
-        while(start<=end){
+        int[] res=new int[n]; //O(n)
+        while(start<=end){ 
             if(arr[start]*arr[start]< arr[end]*arr[end]){
                   res[k]=arr[end]*arr[end];
                   end--;
@@ -44,8 +44,9 @@ public class SquaresOfSortedArray{
     }
 }
 /*
-TIME COMPLEXITY:
-
+TIME COMPLEXITY: O(n)
+SPACE COMPLEXITY: O(N)
+Auxiliary space : O(n), input space : O(n)
 
 OUTPUT 1:
 Enter the total number of elements in the array : 6
