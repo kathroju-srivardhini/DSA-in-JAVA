@@ -45,7 +45,7 @@ public class SquaresOfSortedArray{
 }
 /*
 TIME COMPLEXITY: O(n)
-SPACE COMPLEXITY: O(N)
+SPACE COMPLEXITY: O(n)
 Auxiliary space : O(n), input space : O(n)
 
 OUTPUT 1:
