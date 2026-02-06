@@ -25,6 +25,7 @@ public static void main(String[] args){
     int k=sc.nextInt();
     if(k > n){
     System.out.print("Invalid window size!");
+    sc.close();
     return;
     }
     Queue<Integer> q = new LinkedList<>();

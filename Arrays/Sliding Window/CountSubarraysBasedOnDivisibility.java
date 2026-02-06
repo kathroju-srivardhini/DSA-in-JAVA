@@ -7,7 +7,7 @@ Check windowSum % k == 0.
 This logic works for negative numbers also.
 */
 import java.util.*;
-public class DivisibleSubarrays{
+public class CountSubarraysBasedOnDivisibility{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the array size : ");
