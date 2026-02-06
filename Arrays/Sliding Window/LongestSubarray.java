@@ -1,7 +1,11 @@
 /*
+Problem Statement :
 Given an array of positive integers and a number k,
 find the length of the longest subarray whose sum ≤ k.
-Variable-size Sliding Window
+LOGIC : Variable-size Sliding Window
+Expand the window to include more elements,
+shrink it only when the sum exceeds K,
+and keep track of the maximum valid window size.
 */
 import java.util.Scanner;
 public class LongestSubarray{
@@ -23,12 +27,12 @@ public class LongestSubarray{
         int k=sc.nextInt();
         int left=0;
         int sum=0, maxLen=0;
-       for(int right=0;right<n;right++) //Outer loop : O(n)
+       for(int right=0;right<n;right++) 
         {
-            sum+=arr[right];
-            while(sum>k) //inner loop : O(n)
+            sum+=arr[right]; //incoming element
+            while(sum>k) 
             {
-                sum-=arr[left];
+                sum-=arr[left]; //outgoing element
                 left++;
             }
             maxLen = Math.max(maxLen, right - left + 1);
