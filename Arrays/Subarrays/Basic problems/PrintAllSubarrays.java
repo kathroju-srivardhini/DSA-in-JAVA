@@ -45,7 +45,7 @@ public class PrintAllSubarrays{
     }
 }
 /*
-TIME COMPLEXITY :
+TIME COMPLEXITY : O(n^3)
 Auxiliary Space : O(1)
 
 OUTPUT 1:
