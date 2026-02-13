@@ -1,5 +1,6 @@
 /*
 A java program to right rotate the given array by k 
+LOGIC :
 Reverse entire array
 Reverse first k elements
 Reverse remaining n-k elements
