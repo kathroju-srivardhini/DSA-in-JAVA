@@ -8,7 +8,8 @@ otherwise free a room
 import java.util.Arrays;
 import java.util.Scanner;
 public class MeetingRooms{
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the total no. of meetings : ");
         int n=sc.nextInt();
