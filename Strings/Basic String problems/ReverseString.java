@@ -34,7 +34,7 @@ public class ReverseString{
 }
 /*
 TIME COMPLEXITY: O(n)
-SPACE COMPLEXITY: O(1)
+SPACE COMPLEXITY: O(n) //for character array
 
 OUTPUT 1:
 Enter the String : internet
